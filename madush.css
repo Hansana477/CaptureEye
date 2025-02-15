@@ -1,0 +1,27 @@
+.background-with-shade {
+    position: relative; /* Allows the overlay to cover the background */
+    background: url('opop.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    height: 100vh; /* Set the height of the section to viewport height */
+    width: 100%; /* Full width */
+  }
+  
+  .background-with-shade::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1; /* Places the overlay above the background image */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2; /* Places content above the overlay */
+    color: white; /* Contrast text color for visibility */
+    text-align: center;
+    padding-top: 50px; /* Optional padding to position content */
+  }
+  

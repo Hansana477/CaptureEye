@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #b9b1b1;
+    background-image: url(style/image/smoke.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 15px;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    
+}
+
+.hepay {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.view {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+
+.updp, .deltp {
+    width: 35%; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.updp input, .deltp input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+
+.updp button, .deltp button {
+    width: 90px;
+    padding: 10px 0;
+    background-color: #040b05;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.updp button:hover, .deltp button:hover {
+    background-color: #5e56ea;
+}
+
+
+
+.deltp {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+}
+
+.deltp input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.deltp button {
+    padding: 10px 15px;
+    background-color: #040b05;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80px;
+    
+}
+
+.deltp button:hover {
+    background-color: #5e56ea;
+}
+
+
+
+
+
+
